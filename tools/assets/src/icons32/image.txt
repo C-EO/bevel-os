@@ -1,0 +1,45 @@
+; Bevel OS image - picture
+size 32 32
+color K 0 0 0
+color G 2 2 2
+color W 3 3 3
+color Y 3 3 0
+color S 1 2 3
+color s 2 3 3
+color I 2 2 3
+color i 1 1 2
+color E 0 2 0
+color e 0 1 0
+---
+................................
+................................
+................................
+................................
+..KKKKKKKKKKKKKKKKKKKKKKKKKKKK..
+..KWWWWWWWWWWWWWWWWWWWWWWWWWWK..
+..KWWWWWWWWWWWWWWWWWWWWWWWWWWK..
+..KWWSSSSSSSSSSSSSSSSSSSSSSWWK..
+..KWWSSSSSSSSSSSSSSSYYYSSSSWWK..
+..KWWSSSSSSSSSSSSSSYYYYYSSSWWK..
+..KWWSSSSSSSSSSSSSSYYYYYSSSWWK..
+..KWWSSSSSSSSSSSSSSYYYYYSSSWWK..
+..KWWSSSSSSSSSSSSSSSYYYSSSSWWK..
+..KWWSSSSSSWSSSSSSSSSSSSSSSWWK..
+..KWWSSSSSWWiSSSSSSSSSSSSSSWWK..
+..KWWssssIWWiisssssssssssssWWK..
+..KWWsssIIWiiissssssWssssssWWK..
+..KWWssIIIiiiisssssIWisssssWWK..
+..KWWsIIIIiiiiisssIIiiissssWWK..
+..KWWIIIIIiiiiiisIIIiiiisssWWK..
+..KWWEEEEEEEEEEEEEEEEEEEEEEWWK..
+..KWWEEEEEEeeeeeEEEEEEEEEEEWWK..
+..KWWEEEEEEEEEEEEEEEEEEEEEEWWK..
+..KWWeeEEEEEEEEEEEEeeeeeeEEWWK..
+..KWWeeeeeeeeeeeeeeeeeeeeeeWWK..
+..KWWWWWWWWWWWWWWWWWWWWWWWWWWK..
+..KWGGGGGGGGGGGGGGGGGGGGGGGGGK..
+..KKKKKKKKKKKKKKKKKKKKKKKKKKKK..
+................................
+................................
+................................
+................................

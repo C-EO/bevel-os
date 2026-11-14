@@ -1,0 +1,16 @@
+Welcome to Bevel OS
+===================
+
+This is a small desktop operating system running on an ESP32-S3
+microcontroller: two cores at 240 MHz, 8 MB of PSRAM, a 640x480
+VGA picture in 64 colours made by six resistors.
+
+Things to try:
+
+  * Press F1 for the list of keyboard shortcuts. Everything works
+    without a mouse.
+  * Open Files and look around this drive.
+  * Edit this file and save it with Ctrl+S.
+  * Start a game from the Bevel menu, under Programs.
+
+The drive you are looking at lives in the board's own flash chip.

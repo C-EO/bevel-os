@@ -1,0 +1,18 @@
+# ESP-IDF build output and component-manager downloads
+build/
+managed_components/
+sdkconfig.old
+
+# Doom game data: fetched by tools/fetch_doom.sh, never committed
+third_party/wad/
+*.wad
+*.WAD
+
+# Generated previews and raw framebuffer dumps
+tools/assets/out/
+*.ppm
+
+# Local clutter
+.DS_Store
+__pycache__/
+*.pyc

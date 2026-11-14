@@ -1,0 +1,24 @@
+; Bevel OS app - program window
+size 16 16
+color K 0 0 0
+color G 2 2 2
+color W 3 3 3
+color O 3 2 0
+color B 0 0 3
+---
+................
+................
+.KKKKKKKKKKKKKK.
+.KBBBBBBBBBBBBK.
+.KBWWWWWBBBGGBK.
+.KBBBBBBBBBBBBK.
+.KKKKKKKKKKKKKK.
+.KWWWWWWWWWWWWK.
+.KWOOOWGGGGGWWK.
+.KWOOOWWWWWWWWK.
+.KWOOOWGGGGWWWK.
+.KWWWWWWWWWWWWK.
+.KWGGGGGGGGGGWK.
+.KKKKKKKKKKKKKK.
+................
+................

@@ -1,0 +1,22 @@
+; Bevel OS ibeam
+size 7 16
+hot 3 8
+color K 0 0 0
+color W 3 3 3
+---
+.KK.KK.
+KWWKWWK
+.KKWKK.
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+..KWK..
+.KKWKK.
+KWWKWWK
+.KK.KK.

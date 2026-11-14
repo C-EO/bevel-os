@@ -1,0 +1,23 @@
+; Bevel OS settings - gear
+size 16 16
+color K 0 0 0
+color D 1 1 1
+color G 2 2 2
+color W 3 3 3
+---
+................
+......KKKK......
+..KK..KWGK..KK..
+.KWGKKKWGKKKGDK.
+.KGGGWWGGGGGGDK.
+..KGWGKKKKGGDK..
+.KKWGK....KGGKK.
+KWWGGK....KGGDDK
+KGGGGK....KGGDDK
+.KKGGK....KGDKK.
+..KGGGKKKKGDDK..
+.KGGGGGGGGDDDDK.
+.KGDKKKGDKKKDDK.
+..KK..KGDK..KK..
+......KKKK......
+................

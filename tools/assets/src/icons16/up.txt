@@ -1,0 +1,26 @@
+; Bevel OS up - parent folder
+size 16 16
+color K 0 0 0
+color y 3 3 1
+color c 3 3 2
+color a 2 2 0
+color O 3 2 0
+color o 3 2 1
+color B 0 0 3
+---
+................
+................
+..KKKK..........
+.KooooK.........
+KoOOOOOKKKKKKK..
+KoOOOOOOOOOOOOK.
+KKKKKKKKKKKKKKK.
+KccccccBccccccK.
+KcyyyyBBByyyyaK.
+KcyyyBBBBByyyaK.
+KcyyyyBBByyyyaK.
+KcyyyyBBByyyyaK.
+KyaaaaaaaaaaaaK.
+KKKKKKKKKKKKKKK.
+................
+................

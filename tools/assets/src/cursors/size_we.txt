@@ -1,0 +1,15 @@
+; Bevel OS size_we
+size 15 9
+hot 7 4
+color K 0 0 0
+color W 3 3 3
+---
+....K.....K....
+...KK.....KK...
+..KWK.....KWK..
+.KWWKKKKKKKWWK.
+KWWWWWWWWWWWWWK
+.KWWKKKKKKKWWK.
+..KWK.....KWK..
+...KK.....KK...
+....K.....K....

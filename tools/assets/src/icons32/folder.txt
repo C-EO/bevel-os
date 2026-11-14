@@ -1,0 +1,42 @@
+; Bevel OS folder - manila folder
+size 32 32
+color K 0 0 0
+color y 3 3 1
+color c 3 3 2
+color Y 3 3 0
+color a 2 2 0
+color O 3 2 0
+color o 3 2 1
+---
+................................
+................................
+................................
+................................
+...KKKKKKKK.....................
+..KooooooooK....................
+.KoOOOOOOOOOKKKKKKKKKKKKKKKKK...
+.KoOOOOOOOOOOOOOOOOOOOOOOOOOOK..
+.KoOOOOOOOOOOOOOOOOOOOOOOOOOOK..
+.KKKKKKKKKKKKKKKKKKKKKKKKKKKKK..
+.KcccccccccccccccccccccccccccK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcyyyyyyyyyyyyyyyyyyyyyyyyyaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KcYYYYYYYYYYYYYYYYYYYYYYYYYaK..
+.KyaaaaaaaaaaaaaaaaaaaaaaaaaaK..
+.KKKKKKKKKKKKKKKKKKKKKKKKKKKKK..
+................................
+................................
+................................
+................................
+................................
