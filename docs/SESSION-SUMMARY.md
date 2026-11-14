@@ -241,7 +241,6 @@ USB experiments.
 - **Loadable apps** cannot create their own buttons or lists, and an app that crashes inside an
   OS call still restarts the whole system.
 - **The SD card** from the original brief was dropped by the human's decision.
-- The final session summary and the last intervention row are not committed to git yet.
 
 ## 7. Moments that may work well on camera
 

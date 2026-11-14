@@ -1,35 +1,39 @@
 # Bevel OS
 
+![Bevel OS desktop: the System window, the keyboard shortcut list and the Alt+Tab switcher](docs/img/cover.png)
+
 A small graphical desktop operating system for one ESP32-S3 board, drawing a 640x480 VGA picture
 in 64 colours through six resistors. It has overlapping windows, a taskbar, a file manager, a text
 editor, a picture viewer, a terminal, Wi-Fi with a text web browser, and apps loaded from its own
 drive as separate ELF files, including Snake and Doom.
 
-The firmware, tools and documentation in this repository were written by an AI model,
-**Claude Fable 5.2**, working as a coding agent in Claude Code. A human did the physical work
+The OS was written by an AI model, **Claude Fable 5.2**, working as a coding agent in Claude
+Code. The hardware bring-up before it (colour test, USB input, the 3D-printed box, and the brief
+for the OS) was also done with Claude in an earlier session. A human did the physical work
 (wiring, plugging cables, 3D printing) and made a few decisions; every one of those actions is
 logged in [INTERVENTIONS.md](INTERVENTIONS.md) and summarised [below](#what-the-human-did).
 
+## Screenshots
+
 <table>
 <tr>
-<td><img src="captures/t3.png" alt="System information, Alt+Tab switcher and the Help window"></td>
-<td><img src="captures/doom1.png" alt="Doom running in a window"></td>
+<td width="33%"><img src="docs/img/apps.png" alt="Files and the text editor"></td>
+<td width="33%"><img src="docs/img/doom.png" alt="Doom running in a window"></td>
+<td width="33%"><img src="docs/img/browser.png" alt="The web browser showing FrogFind search results"></td>
 </tr>
 <tr>
-<td><img src="captures/b1.png" alt="The web browser's home page"></td>
-<td><img src="captures/c1.png" alt="A crashing app caught by the OS"></td>
-</tr>
-<tr>
-<td><img src="captures/f1.png" alt="Files and the text editor"></td>
-<td><img src="captures/s1.png" alt="Snake, a loadable app"></td>
+<td>Files and the Text Editor</td>
+<td>Doom (shareware E1M1) as a loadable app</td>
+<td>The browser: FrogFind search results over Wi-Fi</td>
 </tr>
 </table>
 
-These are pixel-exact framebuffer dumps taken over the serial port (`tools/bv.py dump`), not
-photos. All of [captures/](captures/) are from the real board.
+These are pixel-exact framebuffer dumps taken over the serial port (`tools/bv.py dump`), shown
+at 2x, not photos. More in [captures/](captures/), all from the real board.
 
 ## Contents
 
+- [Screenshots](#screenshots)
 - [What it does](#what-it-does)
 - [Hardware](#hardware)
 - [How it works](#how-it-works)
@@ -252,8 +256,12 @@ pixels for a 2x2 dither into the 64-colour palette. Keyboard only, no sound (the
 audio output).
 
 `Doom.elf` is already in `disk/Apps/` and in the firmware. The game data is not in this
-repository; fetch the shareware `doom1.wad` and copy it to the drive (4.2 MB, about two minutes
-over the serial port):
+repository. `tools/fetch_doom.sh` downloads the shareware `doom1.wad` v1.9 from a third-party
+GitHub mirror,
+[github.com/Akbar30Bill/DOOM_wads](https://github.com/Akbar30Bill/DOOM_wads), and checks its MD5
+(`f0cefca49926d00903cf57551d901abe`). Any shareware v1.9 `doom1.wad` with that checksum works;
+put it at `third_party/wad/doom1.wad` and the script skips the download. Then copy it to the
+drive (4.2 MB, about two minutes over the serial port):
 
 ```sh
 tools/fetch_doom.sh                                  # downloads third_party/wad/doom1.wad, checks the MD5
